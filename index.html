@@ -1,0 +1,485 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webmehanicar-Izrada kodiranih webstranica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!----HEADER-->
+    <header class="header">
+        <a href="#" class="logo">Webmehanicar</a>
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+                <i class="fa-solid fa-x" id="close-icon"></i>
+            </label>
+    
+        <nav class="navbar">
+            <a href="#" style="--i:0;">Home</a>
+            <a href="#portfolio" style="--i:1;">Portfolio</a>
+            <a href="#cene" style="--i:2;">Cene</a>
+            <a href="#website" style="--i:3;">Websajt</a>
+            <a href="#maps" style="--i:4;">Google Maps</a>
+            <a href="#kon" style="--i:5;">Kontakt</a>
+        </nav>
+    </header>
+
+        <!---HERO-->
+    <div class="glavni">
+        <div class="ukrasni">
+
+        </div>
+        <div class="kontejnerce">
+            <div class="poruka">
+                <img src="images/REALLOGO.png" alt="">
+                <p class="slogan">Kreativnost u Svakom Pikselu</p>
+            </div>
+            <h1>Izrada i Dizajn <br class="raz"> &#123; <span style="color: #03fa8e;">Kodiranih</span> &#125; Websjatova!</h1>
+            <p class="naslovtext">Profesionalni vebsajtovi za lokalne poslove - ručno kodirani koristeći HTML, CSS i JavaScript sa povezivanjem na Google Maps za bolju vidljivost vašeg poslovanja na internetu. Iskoristite prednosti interneta u vašu korist.<br>Unapredite svoj posao sa modernim vebsajtom i Google Maps profilom.</p>
+            <button onclick="document.location='#kon'" class="zeleni_btn">Kontakt</button>
+            <button onclick="document.location='#portfolio'" class="ljubicasti_btn">Portfolio</button>
+            <div class="ispod">
+                <img class="heropozadina" src="images/HEROPOZADINA.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--- STA MI RADIMO-->
+    <section class="zasto_sajt">
+        <div class="container2">
+            <div class="first">
+                <a href="#" class="pokazivac">Šta radimo - Webmehanicar</a>
+                <div class="main-title">
+                    <h2>Šta mi <span>radimo?</span><span class="bg-text">Usluge</span></h2>
+                </div>
+                <p>Mi se bavimo izradom i dizajnom profesionalnih, kodiranih vebsajtova prilagođenih potrebama lokalnih poslovanja. Koristimo moderne tehnologije kao što su HTML, CSS i JavaScript kako bismo kreirali vizuelno privlačne i funkcionalne vebsajtove. Naši vebsajtovi su ručno kodirani, što nam omogućava da pružimo jedinstvena rešenja koja se izdvajaju od konkurencije. Takođe, nudimo uslugu povezivanja vašeg poslovanja sa Google Maps, čime povećavamo vašu vidljivost i pristupačnost. Prednost našeg pristupa je u tome što dobijate potpuno prilagođen vebsajt koji odražava identitet vašeg brenda i privlači ciljanu publiku.
+                </p>
+                <button onclick="document.location='#kon'" class="zeleni_btn">Kontakt</button>
+            </div>
+            <div class="second">
+                <img src="images/LAPTOP.png" alt="">
+            </div>
+        </div>
+    </section>
+
+        <!--O NAMA--->
+    <section class="zasto_sajt2">
+        <div class="container3">
+            <div class="slika1">
+                <img src="images/Konacna slika za o nama.png" alt="">
+            </div>
+            <div class="kontent2">
+                <a href="#" class="pokazivac">O nama - Webmehanicar</a>
+                <div class="main-title">
+                    <h2>Više <span>o nama</span><span class="bg-text">Dizajn</span></h2>
+                </div>
+                <p>Ja sam Djordje, bavim se izradom i dizajnom vebsajtova koristeći HTML, CSS i JS. Već dve godine pravim odlične websajtove. Posvećen sam pružanju visokokvalitetnih, ručno kodiranih vebsajtova za lokalna poslovanja. Pored izrade vebsajtova, omogućavam i povezivanje sa Google Maps radi bolje vidljivosti na Google pretraživaču. Moja misija je da vašu onlajn prisutnost učinim jedinstvenom i efikasnom.
+                    <hr class="one">
+                <p>Isopd možete da pogledate neke od mojih najzanimljivijih projekata</p>
+                </p>
+                <button onclick="document.location='#portfolio'" class="ljubicasti_btn">Portfolio</button>
+            </div>
+        </div>
+    </section>
+
+
+        <!------GOOGLE MAPS---->
+    <div class="maps" id="maps">
+        <div class="naslov">
+            <a href="#" class="pokazivac">Google Maps Profil - Webmehanicar</a>
+            <div class="main-title">
+                <h2>Šta je <span>Google Maps</span> profil?<span class="bg-text">webmehanicar</span></h2>
+            </div>
+        </div>
+        <div class="ispod">
+            <div class="lev">
+                <p>Google Maps profil predstavlja digitalni prikaz vašeg poslovanja na internetu. On ce se pojaviti na pretrazivacu kada neko ukuca naziv vaseg posla na Googlu ili Google Mapsu. Kreiranjem i optimizacijom Google Maps profila, vaš posao postaje lako dostupno korisnicima koji traže usluge koje nudite. <br> Evo nekoliko ključnih razloga zašto je Google Maps profil važan za vaše poslovanje:
+                    <hr class="one">
+    
+                <p>Povećana vidljivost: Google Maps profil omogućava vašem poslu da se pojavljuje u rezultatima pretrage kada korisnici traže slične usluge u vašem području. Ovo znači da potencijalni klijenti mogu lako pronaći vašu lokaciju i kontakt informacije.</p> <hr>
+                    
+                <p>Pouzdane informacije: Kada korisnici vide vašu firmu na Google Maps, imaju pristup tačnim informacijama o radnom vremenu, adresi, broju telefona i recenzijama. Ovo povećava poverenje i olakšava komunikaciju sa vašim potencijalnim klijentima.</p> <hr>
+                    
+                <p>Recenzije i ocene: Google Maps profil omogućava korisnicima da ostavljaju recenzije i ocene vašeg poslovanja. Pozitivne recenzije mogu značajno uticati na odluku novih klijenata da se odluče baš za vaše usluge.</p> <hr>
+                    
+                <p>Uputstva i navigacija: Sa Google Maps profilom, vaši klijenti mogu lako dobiti uputstva do vaše lokacije. Ovo je posebno korisno za poslove sa fizičkim lokacijama, jer olakšava klijentima dolazak do vas.</p> 
+                <hr>
+                    
+                <p class="vazantext">Kreiranjem i održavanjem Google Maps profila, osiguravate da vaše poslovanje bude vidljivo, pristupačno i pouzdano za sve potencijalne klijente u vašoj lokalnoj zajednici.</p></p>
+            </div>
+            <div class="des">
+                <img src="images/GOOGLEMAPS.png" alt="" >
+            </div>
+        </div>
+    </div>
+
+
+        <!------WEBSITE---->
+        <div class="maps" id="website">
+            <div class="naslov">
+                <a href="#" class="pokazivac">Izrada Websajta - Webmehanicar</a>
+                <div class="main-title">
+                    <h2>Zašto je <span>websajt</span> važan danas?<span class="bg-text">webmehanicar</span></h2>
+                </div>
+            </div>
+            <div class="ispod">
+                <div class="lev">
+                    <p>U današnjem digitalnom dobu, prisustvo na internetu je veoma značaja za uspeh svakog poslovanja, a broj ljudi na inernetu se povećava svakodnevno. Vebsajt je temelj vaše digitalnu prisutnosti i pruža brojne prednosti koje vam mogu pomoći da rastete i unapredite svoje poslovanje. Evo nekoliko ključnih razloga zašto je vebsajt važan danas:</p>
+                        <hr class="one">
+        
+                    <p>Dostupnost 24/7: Za razliku od fizičkih kancelarija koje imaju radno vreme, vebsajt je dostupan non-stop. To znači da klijenti mogu da pristupe informacijama o vašim proizvodima i uslugama u bilo koje vreme, bilo gde se nalazili.</p> <hr>
+                        
+                    <p>Povećanje kredibiliteta: Vebsajt daje vašem poslovanju profesionalni izgled konkurentsku prednost i pomaže u izgradnji poverenja kod potencijalnih klijenata. Bez vebsajta, vaše poslovanje može delovati manje ozbiljno.</p> <hr>
+                        
+                    <p>Informativnost: Vebsajt pruža sveobuhvatne informacije o vašem poslovanju, uključujući detalje o proizvodima i uslugama, cenama, kontakt informacijama i mnogo toga. Ovo olakšava klijentima da donesu informisane odluke.</p> <hr>
+                        
+                    <p>Direktna komunikacija: Vebsajt pruža platformu za direktnu komunikaciju sa vašim klijentima putem kontakt formi, live chat-a i kontakt informacija.</p>
+                    <hr>
+                    <p class="vazantext">Ulaganje u kvalitetan vebsajt je veoma bitno za napredak vašeg poslovanja. Bez obzira na  industriju, vebsajt vam pruža da rastete, inovirate i uspevate u savremenom poslovnom okruženju.</p>
+                </div>
+                <div class="des">
+                    <img src="images/mikibalboa4.jpg" alt="" class="heropozadina">
+                </div>
+            </div>
+        </div>
+                <!------WPORTFOLIO---
+    <div class="portfolio" id="portfolio">
+        <a href="#" class="pokazivac">Portfolio - Webmehanicar</a>
+        <h2>Pogledajte neke od mojih <span class="bro">projekata</span> u <span style="color: #03fa8e;">HTMLu, CSSu i JavaScriptu</span></h2>
+        <div class="grid">
+
+
+            <div   class="colc">
+                <div class="overlaypic">
+                    <img src="images/YOUTUBELOGOPORTFOLIO.jpg" alt="">
+                </div>
+                <div class="dugmic">
+                    <a href="https://djordje3002.github.io/slusalice.github.io/" target="_blank">
+                        <button>Slušalice sa slajderom</button>
+                    </a>
+                </div>
+            </div>
+
+            <div   class="colc">
+                <div class="overlaypic">
+                    <img src="images/YOUTUBELOGOPORTFOLIO.jpg" alt="">
+                </div>
+                <div class="dugmic">
+                    <a href="https://djordje3002.github.io/agecalculator.github.io/" target="_blank">
+                        <button>Kalkulator godina</button>
+                    </a>
+                </div>
+            </div>
+
+            <div   class="colc">
+                <div class="overlaypic">
+                    <img src="images/YOUTUBELOGOPORTFOLIO.jpg" alt="">
+                </div>
+                <div class="dugmic">
+                    <a href="https://djordje3002.github.io/kalkulator.github.io/" target="_blank">
+                        <button>Kalkulator</button>
+                    </a>
+                </div>
+            </div>
+
+            <div   class="colc">
+                <div class="overlaypic">
+                    <img src="images/YOUTUBELOGOPORTFOLIO.jpg" alt="">
+                </div>
+                <div class="dugmic">
+                    <a href="https://djordje3002.github.io/" target="_blank">
+                        <button>Websajt agencije</button>
+                    </a>
+                </div>
+            </div>
+
+            <div   class="colc">
+                <div class="overlaypic">
+                    <img src="images/YOUTUBELOGOPORTFOLIO.jpg" alt="">
+                </div>
+                <div class="dugmic">
+                    <a href="https://djordje3002.github.io/receptiblog.github.io/" target="_blank">
+                        <button>Blog o Receptima</button>
+                    </a>
+                </div>
+            </div>
+
+            <div   class="colc">
+                <div class="overlaypic">
+                    <img src="images/YOUTUBELOGOPORTFOLIO.jpg" alt="">
+                </div>
+                <div class="dugmic">
+                    <a href="https://djordje3002.github.io/receptisajt.github.io/" target="_blank">
+                        <button>Pogledaj Websajt o Receptima</button>
+                    </a>
+                </div>
+            </div>
+
+
+       </div>
+    </div>
+--WPORTFOLIO2---->
+
+    <div class="portfolio" id="portfolio">
+        <div class="main-title">
+            <h2>Portfolio <span>projekti</span><span class="bg-text">webmehanicar</span></h2>
+        </div>
+
+        <p class="portfolio-text">
+            Ovo su neki od mojih radova u HTMLu, CSSu i Java Scriptu.
+        </p>
+        <div class="portfolios">
+
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="images/portfolio1.jpg" alt="">
+                </div>
+                <div class="hover-item">
+                    <h3>Pogledaj projekat</h3>
+                    <a href="https://djordje3002.github.io/slusalice.github.io/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="images/portfolio2.jpg" alt="">
+                </div>
+                <div class="hover-item">
+                    <h3>Pogledaj projekat</h3>
+                    <a href="https://djordje3002.github.io/agecalculator.github.io/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="images/portfol3.jpg" alt="">
+                </div>
+                <div class="hover-item">
+                    <h3>Pogledaj projekat</h3>
+                    <a href="https://djordje3002.github.io/kalkulator.github.io/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="images/portfolio4.jpg" alt="">
+                </div>
+                <div class="hover-item">
+                    <h3>Pogledaj projekat</h3>
+                    <a href="https://djordje3002.github.io/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="images/portfolio5.jpg" alt="">
+                </div>
+                <div class="hover-item">
+                    <h3>Pogledaj projekat</h3>
+                    <a href="https://djordje3002.github.io/receptiblog.github.io/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="image">
+                    <img src="images/portfolio6.jpg" alt="">
+                </div>
+                <div class="hover-item">
+                    <h3>Pogledaj projekat</h3>
+                    <a href="https://djordje3002.github.io/kartica.github.io/" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!------PRICES---->
+
+    <div class="prices" id="cene">
+        <div class="main-title">
+            <h2>Cene <span>naših usluga</span><span class="bg-text">webmehanicar</span></h2>
+        </div>
+        <div class="boxes">
+            <div class="pr">
+                <div class="red">
+                    <h3>Google Maps Paket</h3>
+                </div>
+                <div class="red">
+                    <p>U okviru osnovnog Google Maps paketa, nudimo uslugu postavljanja vašeg poslovanja na Google Maps. Ovaj paket je idealan za one koji žele da povećaju vidljivost svog biznisa i olakšaju potencijalnim klijentima da ih pronađu.</p>
+                    <hr class="one">
+                    <ul>
+                        <div class="stiklica"><i class="fa fa-check" aria-hidden="true"></i>Postavljanje poslovne lokacije na Google Maps</div>
+                        <div class="stiklica"><i class="fa fa-check" aria-hidden="true"></i>Ažuriranje svih potrebnih informacija</div>
+                        <div class="stiklica"><i class="fa fa-check" aria-hidden="true"></i>Optimizacija za lokalne pretrage</div>
+                    </ul>
+                    <hr class="one">
+                    <div class="zacenu">
+                        <p>Cena Google Maps paketa:  <span class="jbc" style="color: #03fa8e;">3000</span> din.</p>
+                    </div>
+                </div>
+                <div class="red">
+                    <button onclick="document.location='#kon'" class="ljubicasti_btn">Započnimo sa Google Maps paketom</button>
+                </div>
+            </div>
+            <div class="prdva">
+                <div class="red">
+                    <h3>Full Website paket</h3>
+                </div>
+                <div class="red">
+                    <p>Full Website paket uključuje kompletnu izradu profesionalnog, kodiranog vebsajta i postavljanje vašeg poslovanja na Google Maps. Ovaj paket je idealan za lokalna poslovanja koja žele sveobuhvatno onlajn prisustvo i bolju vidljivost na internetu</p>
+                    <hr class="one">
+                    <ul>
+                        <div class="stiklica"><i class="fa fa-check" aria-hidden="true"></i>Dizajn i izrada  vebsajta koristeći HTML i CSS</div>
+                        <div class="stiklica"><i class="fa fa-check" aria-hidden="true"></i>Optimizacija vebsajta za pretraživače</div>
+                        <div class="stiklica"><i class="fa fa-check" aria-hidden="true"></i>Postavljanje poslovne lokacije na Google Maps</div>
+                        <div class="stiklica"><i class="fa fa-check" aria-hidden="true"></i>Prisutnost na Mapi</div>
+                        <div class="stiklica"><i class="fa fa-check" aria-hidden="true"></i>Unos svih neophodnih informacijai</div>
+                        <div class="stiklica"><i class="fa fa-check" aria-hidden="true"></i>Povezivanje Google Maps i vebsajta</div>
+                    </ul>
+                    <hr class="one">
+                    <div class="zacenu">
+                        <p>Cena Full Website paketa paket:  <span class="jbc" style="color: #03fa8e;">10 000</span> din.</p>
+                    </div>
+                </div>
+                <div class="red">
+                    <button onclick="document.location='#kon'" class="zeleni_btn">Započnimo sa Full Website Paketom</button>
+                </div>
+            </div>
+        </div>
+    </div>        
+
+
+            <!-------ASKEDQUESTIONS---->
+
+    <div class="crna">
+        <div class="wrapper">
+            <div class="main-title">
+                <h2>Najčešće postavljena <span>pitanja</span><span class="bg-text">webmehanicar</span></h2>
+            </div>
+            <p>Kliknite na pitanje da biste videli odgovor.</p>
+
+            <div class="faq">
+                <button class="accordion">
+                    Da li je cena fiksna i od čega zavisi?
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+                <div class="panel">
+                    <p>Cena paketa Google Maps jeste fiksna i iznosi 3000din. Cena izrade websajta nije fiksna i zavisi od složenosti vebsajta i vremena potrebnog za njegovu izradu i vaših specifičnih želja. Svaki projekat je jedinstven, pa se troškovi prilagođavaju prema specifičnim zahtevima, funkcionalnostima koje želite i dizajnerskim elementima koje je potrebno implementirati. </p>
+                </div>
+            </div>
+
+
+            <div class="faq">
+                <button class="accordion">
+                    Šta je domen i hosting?
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+                <div class="panel">
+                    <p><span style="color: #03fa8e;">Domen</span> je jedinstvena adresa vašeg vebsajta na internetu, poput www.vašdomen.com (www.advokatzivkovic.com), koju korisnici unose u pretraživač kako bi posetili vaš sajt. Bez domena, vaš vebsajt ne bi imao prepoznatljivu adresu koju korisnici mogu lako da zapamte i posete.
+
+                        <span style="color: #03fa8e;">Hosting</span> je usluga koja omogućava da vaš vebsajt bude dostupan na internetu. To je prostor na serveru gde se čuvaju svi podaci vašeg sajta. Kada neko unese vaš domen u pretraživač, hosting server šalje podatke vašeg vebsajta korisnikovom pretraživaču, omogućavajući mu da vidi vaš sajt.
+                        
+                        Oboje, domen i hosting, su neophodni za svaki vebsajt kako bi bio vidljiv i dostupan na internetu, i dodatno se plaćaju (kupuju).</p>
+                </div>
+            </div>
+
+
+
+            <div class="faq">
+                <button class="accordion">
+                    Da li nudite prilagođene dizajne ili koristite gotove šablone?
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+                <div class="panel">
+                    <p>Svi naši vebsajtovi su ručno kodirani i prilagođeni vašim specifičnim potrebama, bez korišćenja gotovih šablona.</p>
+                </div>
+            </div>
+
+
+            <div class="faq">
+                <button class="accordion">
+                    Koliko traje proces izrade vebsajta?
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+                <div class="panel">
+                    <p>Proces izrade vebsajta obično traje od 3 do 7 dana, u zavisnosti od složenosti projekta i vaših specifičnih zahteva</p>
+                </div>
+            </div>
+
+
+            <div class="faq active">
+                <button class="accordion">
+                    Koje informacije su vam potrebne za početak izrade vebsajta??
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+                <div class="panel">
+                    <p>Potrebne su nam informacije o vašem poslovanju, ciljevima, sadržaju koji želite da uključite, kao i opis dizajna.</p>
+                </div>
+            </div>
+
+            <div class="faq active">
+                <button class="accordion">
+                    Kako mogu da počnem sa projektom izrade vebsajta?
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+                <div class="panel">
+                    <p>Kontaktirajte nas putem poruka, pozovite broj <span style="color: #03fa8e;">064 4906063</span> ili mejl <span style="color: #03fa8e;">webmehanicar@gmail.com</span> i dogovorićemo konsultaciju kako bismo razumeli vaše želje i potrebe i započeli sa projektom.</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+        <!----KONTAKT INFORMACIJE-->
+
+    <div class="veci" id="kon">
+        <div class="main-title">
+            <h2><span>Kontakt</span> informacije<span class="bg-text">webmehanicar</span></h2>
+        </div>
+        <div class="kontakt">
+            <div class="colon">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p>Broj telefona:</p> <br>
+                <p>064 4906063</p>
+            </div>
+            <div class="colon">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <p>Email:</p> <br>
+                <p>webmehanicar&#64gmail.com</p>
+            </div>
+            <div class="colon">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <p>Djordje Kartaljevic</p> <br>
+                <p>Ako imate bilo kakvo pitanje slobodno pitajte</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Stranicu radio <a href="#">Webmehanicar</a></p>
+    </footer>
+
+    <script src="scripst.js"></script>
+</body>
+</html>
